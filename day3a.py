@@ -24,7 +24,6 @@ for line in range(140):
                 nums[line][-1][2] = ind-1
                 nums[line] += [["", 0,0]]
         elif lines[line][ind] in "0123456789":
-            nums[line][-1][0] += lines[line][ind]
             if not num:
                 num = True
                 nums[line][-1][1] = ind
